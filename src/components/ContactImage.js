@@ -1,4 +1,4 @@
-import Image from "../assets/ContactImage.JPG";
+import Image from "../assets/ContactImage.jpg";
 
 function ContactImage() {
   return (

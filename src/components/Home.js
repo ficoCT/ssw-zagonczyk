@@ -11,8 +11,8 @@ function Home() {
             {/*<HomeStart />*/}
             {/*<HomeNews />*/}
             {/*<HomeTraining />*/}
-            {/*<HomeAboutUs />*/}
-            <HomeContact />
+            <HomeAboutUs />
+            {/*<HomeContact />*/}
         </>
     );
 }
