@@ -10,9 +10,9 @@ function Home() {
         <>
             {/*<HomeStart />*/}
             {/*<HomeNews />*/}
-            {/*<HomeTraining />*/}
+            <HomeTraining />
             <HomeAboutUs />
-            {/*<HomeContact />*/}
+            <HomeContact />
         </>
     );
 }
