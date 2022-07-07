@@ -1,0 +1,17 @@
+.navbar {
+  padding: 1.25rem;
+  background-color: black;
+  color: white;
+  background-color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+

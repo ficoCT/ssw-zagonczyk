@@ -5,9 +5,6 @@ function HomeStart() {
     return (
         <section id="homeStart" className="start">
             <HomeVideo />
-            <div className="start__text">
-                Witamy :)
-            </div>
         </section>
     );
 }
