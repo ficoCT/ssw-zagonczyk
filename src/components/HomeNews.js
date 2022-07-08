@@ -1,4 +1,5 @@
 import NewsImage from "./NewsImage";
+import SeeMore from "./SeeMore";
 
 function HomeNews() {
 
@@ -22,6 +23,8 @@ function HomeNews() {
                 administracji rządowej i samorządowej, placówkami oświaty i wychowania, a także
                 z organizacjami społecznymi i podmiotami, których cele i działalność nie są sprzeczne
                 z celami Stowarzyszenia.
+                <br />
+                <SeeMore />
             </div>
         </section>
     );

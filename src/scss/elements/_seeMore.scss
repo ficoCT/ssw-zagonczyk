@@ -1,0 +1,18 @@
+.seeMore {
+  background-color: deepskyblue;
+  color: black;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.seeMore:hover, .seeMore:active {
+  color: white;
+}
+
+
