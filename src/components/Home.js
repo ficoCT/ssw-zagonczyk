@@ -11,7 +11,7 @@ function Home() {
         <>
             <HomeStartNavbar />
             <HomeStart />
-            {/*<HomeNews />*/}
+            <HomeNews />
             <HomeTraining />
             <HomeAboutUs />
             <HomeContact />
