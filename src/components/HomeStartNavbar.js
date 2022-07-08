@@ -1,9 +1,11 @@
 import {Link as ScrollLink} from "react-scroll";
+import LogoImage from "./LogoImage";
 
 function HomeStartNavbar() {
     return (
             <nav className="navbar">
                 <div className="navbar__container container">
+                    <LogoImage />
                     <ScrollLink
                         className="navbar__single"
                         to="start"
