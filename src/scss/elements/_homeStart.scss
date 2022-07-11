@@ -3,17 +3,35 @@
   color: white;
   display: flex;
 
-  &__text {
-    font-size: 5rem;
-    margin: auto;
-    width: 40%;
+  &__logo {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
-  &__image {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    object-fit: cover;
+  &__text {
+    font-size: 3.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 5rem;
   }
+
+}
+
+.container__video video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.container__video::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(0,0,0,0.6);
 }

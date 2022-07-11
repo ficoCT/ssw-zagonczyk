@@ -1,8 +1,10 @@
-import Image from "../assets/HomeVideo.jpg";
+import Video from "../assets/Zagonczyk.mp4";
 
 function HomeVideo() {
   return (
-      <img src={Image} alt="Witamy na Naszej stronie" className="start__image" />
+      <div className="container__video">
+        <video autoPlay loop muted src={Video} type='video/mp4' />
+      </div>
   );
 }
 
