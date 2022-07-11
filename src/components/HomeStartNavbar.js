@@ -7,7 +7,7 @@ function HomeStartNavbar() {
                 <div className="navbar__container container">
                     <LogoImage />
                     <ScrollLink
-                        className="navbar__single"
+                        className="navbar__container__single"
                         to="start"
                         spy={true}
                         smooth={true}
@@ -16,7 +16,7 @@ function HomeStartNavbar() {
                         Start
                     </ScrollLink>
                     <ScrollLink
-                        className="navbar__single"
+                        className="navbar__container__single"
                         to="news"
                         spy={true}
                         smooth={true}
@@ -25,7 +25,7 @@ function HomeStartNavbar() {
                         Aktualności
                     </ScrollLink>
                     <ScrollLink
-                        className="navbar__single"
+                        className="navbar__container__single"
                         to="training"
                         spy={true}
                         smooth={true}
@@ -34,7 +34,7 @@ function HomeStartNavbar() {
                         Szkolenia
                     </ScrollLink>
                     <ScrollLink
-                        className="navbar__single"
+                        className="navbar__container__single"
                         to="aboutUs"
                         spy={true}
                         smooth={true}
@@ -43,7 +43,7 @@ function HomeStartNavbar() {
                         O Nas
                     </ScrollLink>
                     <ScrollLink
-                        className="navbar__single"
+                        className="navbar__container__single"
                         to="contact"
                         spy={true}
                         smooth={true}
