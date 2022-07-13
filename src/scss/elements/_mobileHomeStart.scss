@@ -1,0 +1,21 @@
+.mobile__start {
+  height: 100vh;
+  color: white;
+
+  .container__video video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .container__video::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}

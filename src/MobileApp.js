@@ -1,6 +1,10 @@
+import MobileHomeStart from "./components/MobileHomeStart";
+
 function MobileApp() {
   return (
-    <>MobileApp</>
+    <>
+      <MobileHomeStart />
+    </>
   );
 }
 
