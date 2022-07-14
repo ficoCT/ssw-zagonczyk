@@ -8,7 +8,7 @@ function HomeStartNavbar() {
                     <LogoImage />
                     <ScrollLink
                         className="navbar__container__single"
-                        to="start"
+                        to="homeStart"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -17,7 +17,7 @@ function HomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="navbar__container__single"
-                        to="news"
+                        to="homeNews"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -26,7 +26,7 @@ function HomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="navbar__container__single"
-                        to="training"
+                        to="homeTraining"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -35,7 +35,7 @@ function HomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="navbar__container__single"
-                        to="aboutUs"
+                        to="homeAboutUs"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -44,7 +44,7 @@ function HomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="navbar__container__single"
-                        to="contact"
+                        to="homeContact"
                         spy={true}
                         smooth={true}
                         duration={500}

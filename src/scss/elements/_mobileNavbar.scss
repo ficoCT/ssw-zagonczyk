@@ -4,7 +4,7 @@
   inset: 0 0 0 30%;
   background-color: rgba(0,0,0,.4);
   padding: min(20rem, 15vh) 2rem;
-  font-size: 1.25rem;
+  font-size: 1.65rem;
 
   &__container {
     display: flex;
@@ -12,7 +12,7 @@
 
     &__single {
       color: deepskyblue;
-      margin-bottom: 1rem;
+      margin-top: 1rem;
     }
 
     &__single:hover {

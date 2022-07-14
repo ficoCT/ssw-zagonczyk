@@ -6,7 +6,7 @@ function MobileHomeStartNavbar() {
                 <div className="mobile__navbar__container">
                     <ScrollLink
                         className="mobile__navbar__container__single"
-                        to="start"
+                        to="mobileHomeStart"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -15,7 +15,7 @@ function MobileHomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="mobile__navbar__container__single"
-                        to="news"
+                        to="mobileHomeNews"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -24,7 +24,7 @@ function MobileHomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="mobile__navbar__container__single"
-                        to="training"
+                        to="mobileHomeTraining"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -33,7 +33,7 @@ function MobileHomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="mobile__navbar__container__single"
-                        to="aboutUs"
+                        to="mobileHomeAboutUs"
                         spy={true}
                         smooth={true}
                         duration={500}
@@ -42,7 +42,7 @@ function MobileHomeStartNavbar() {
                     </ScrollLink>
                     <ScrollLink
                         className="mobile__navbar__container__single"
-                        to="contact"
+                        to="mobileHomeContact"
                         spy={true}
                         smooth={true}
                         duration={500}
