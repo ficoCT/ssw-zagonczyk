@@ -1,38 +1,31 @@
-import {useEffect, useState} from "react";
-import axios from "axios";
+import React, { useEffect, useState } from 'react';
 
-function News() {
-
-    const [loading, setLoading] = useState(false);
+export default function News() {
     const [posts, setPosts] = useState([]);
-    const [error, setError] = useState('');
-
     useEffect(() => {
-            axios.get(`https://example.com/wp-json/wp/v2/posts`)
-                .then(res => {
-                    if (res.data.length) {
-                        setPosts(res.data);
-                        setLoading(false);
-                    } else {
-                        setError('No Posts Found');
-                    }
-                })
-                .catch(err => {
-                        setError(err.response.data.message);
-                        setLoading(false);
+        async function loadPosts() {
+            const response = await fetch('/wp-json/wp/v2/posts', {
+                headers : {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
                 }
-                );
-        },
-        []
-    );
+            });
+            if(!response.ok) {
+                // oups! something went wrong
+                return;
+            }
 
-    console.log('posts', posts);
+            const posts = await response.json();
+            setPosts(posts);
+        }
 
+        loadPosts();
+    }, [])
     return (
-            <div>
-                News
-            </div>
+        <>
+            {posts.map((post, index) => (
+                  "post"
+            ))}
+        </>
     );
 }
-
-export default News;
