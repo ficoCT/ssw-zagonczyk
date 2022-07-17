@@ -6,38 +6,38 @@ import ContactImage from "./ContactImage";
 function MobileHomeContact() {
 
     return (
-        <section id="mobileHomeContact" className="contact">
+        <section id="mobileHomeContact" className="mobile__contact">
             <ContactImage />
-            <div className="contact__text">
+            <div className="mobile__contact__text">
                 SKONTAKTUJ SIĘ Z NAMI
             </div>
-            <div className="contact__container">
-                <div className="contact__container__footer container">
-                    <div className="contact__container__footer__single ">
+            <div className="mobile__contact__container">
+                <div className="mobile__contact__container__footer container">
+                    <div className="mobile__contact__container__footer__single ">
                         <FontAwesomeIcon
                             icon={faLocationDot}
-                            className="contact__container__footer__single__icons"
+                            className="mobile__contact__container__footer__single__icons"
                         />
                         <p>26-500 Szydłowiec</p>
                         <p>ul. Kamienna</p>
                     </div>
-                    <div className="contact__container__footer__single">
+                    <div className="mobile__contact__container__footer__single">
                         <FontAwesomeIcon
                             icon={faPhone }
-                            className="contact__container__footer__single__icons"
+                            className="mobile__contact__container__footer__single__icons"
                         />
                         <p>+48 512-597-010</p>
                     </div>
-                    <div className="contact__container__footer__single">
+                    <div className="mobile__contact__container__footer__single">
                         <FontAwesomeIcon
                             icon={faAt }
-                            className="contact__container__footer__single__icons"
+                            className="mobile__contact__container__footer__single__icons"
                         />
                         <p>ssew.zagonczyk@gmail.com</p>
                     </div>
-                    <div className="contact__container__footer__single">
+                    <div className="mobile__contact__container__footer__single">
                         <FontAwesomeIcon
-                            className="contact__container__footer__single__icons"
+                            className="mobile__contact__container__footer__single__icons"
                             icon={faFacebookF}
                         />
                         <p>Jesteśmy również na Facebooku.</p>

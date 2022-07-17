@@ -13,10 +13,10 @@ function MobileHome() {
             <MobileLogoImage />
             <MobileHomeStartNavbar />
             <MobileHomeStart />
-            {/*<MobileHomeNews />*/}
-            {/*<MobileHomeTraining />*/}
-            {/*<MobileHomeAboutUs />*/}
-            {/*<MobileHomeContact />*/}
+            <MobileHomeNews />
+            <MobileHomeTraining />
+            <MobileHomeAboutUs />
+            <MobileHomeContact />
         </>
     );
 }
