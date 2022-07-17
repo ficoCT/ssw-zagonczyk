@@ -9,10 +9,11 @@ function MobileHomeContact() {
         <section id="mobileHomeContact" className="mobile__contact">
             <ContactImage />
             <div className="mobile__contact__text">
-                SKONTAKTUJ SIĘ Z NAMI
+                <p>Dopóki walczysz,</p>
+                <p>jesteś zwycięzcą.</p>
             </div>
             <div className="mobile__contact__container">
-                <div className="mobile__contact__container__footer container">
+                <div className="mobile__contact__container__footer">
                     <div className="mobile__contact__container__footer__single ">
                         <FontAwesomeIcon
                             icon={faLocationDot}
