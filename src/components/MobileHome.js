@@ -5,13 +5,22 @@ import MobileHomeNews from "./MobileHomeNews";
 import MobileHomeTraining from "./MobileHomeTraining";
 import MobileHomeAboutUs from "./MobileHomeAboutUs";
 import MobileHomeContact from "./MobileHomeContact";
+import ButtonNav from "./ButtonNav";
+import {useState} from "react";
 
 function MobileHome() {
+
+    const [show, setShow] = useState();
+
+    function showNavbar(s) {
+        setShow(s);
+    }
 
     return (
         <>
             <MobileLogoImage />
-            <MobileHomeStartNavbar />
+            <ButtonNav onShowNavbar={showNavbar}/>
+            <MobileHomeStartNavbar show={show}/>
             <MobileHomeStart />
             <MobileHomeNews />
             <MobileHomeTraining />

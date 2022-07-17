@@ -1,10 +1,12 @@
 .mobile__navbar {
   position: fixed;
   z-index: 1000;
-  inset: 0 0 0 30%;
+  inset:  0 40% 0 0;
   background-color: rgba(0,0,0,.4);
   padding: min(20rem, 15vh) 2rem;
   font-size: 1.65rem;
+  transform: translateX(-100%);
+  transition: transform 500ms ease-in-out;
 
   &__container {
     display: flex;
@@ -19,6 +21,31 @@
       color: white;
     }
   }
+
+  &__show {
+    transform: translateX(0%);
+  }
 }
+
+.mobile__nav__toggle {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  right: 2rem;
+  top: 2rem;
+  width: 2rem;
+  aspect-ratio: 1;
+  border: 0;
+
+  &__hamburger {
+    background: transparent url(../../assets/IconHamburger.svg) no-repeat center;
+  }
+
+  &__close {
+    background: transparent url(../../assets/IconClose.svg) no-repeat center;
+  }
+}
+
+
 
 

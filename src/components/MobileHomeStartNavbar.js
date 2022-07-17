@@ -1,8 +1,9 @@
 import {Link as ScrollLink} from "react-scroll";
 
-function MobileHomeStartNavbar() {
+function MobileHomeStartNavbar({show}) {
+
     return (
-            <nav className="mobile__navbar">
+            <nav id="mobileNavigation" className={show ? "mobile__navbar mobile__navbar__show" : "mobile__navbar"}>
                 <div className="mobile__navbar__container">
                     <ScrollLink
                         className="mobile__navbar__container__single"
