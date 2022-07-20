@@ -2,7 +2,7 @@ import Image from "../assets/Logo.png";
 
 function LogoImage() {
   return (
-      <img src={Image} alt="Logo" className="start__logo" />
+      <img src={Image} alt="Logo" className="navbar__logo" />
   );
 }
 

@@ -2,7 +2,7 @@ import {useState} from "react";
 
 function ButtonNav({onShowNavbar}) {
 
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
 
     const ShowNavbar = (e) => {
         setShow(prev => !prev);

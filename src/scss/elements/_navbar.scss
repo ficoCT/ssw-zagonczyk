@@ -6,18 +6,52 @@
   position: fixed;
   width: 100vw;
 
+  &__logo {
+    width: 5%;
+    height: auto;
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
-    &__single {
-      color: deepskyblue;
-      cursor: pointer;
-    }
+    &__right {
+      width: 95%;
+      margin-left: 2rem;
 
-    &__single:hover {
-      color: white;
+      &__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__single {
+          color: deepskyblue;
+          cursor: pointer;
+        }
+
+        &__single:hover {
+          color: white;
+        }
+      }
+
+      &__name {
+        margin-top: 1rem;
+        color: white;
+        text-align: center;
+
+        p {
+          display: inline-block;
+          word-spacing: 1rem;
+        }
+
+        :first-child {
+          margin-right: 1rem;
+        }
+
+        :last-child {
+          color: deepskyblue;
+        }
+      }
     }
   }
 }
