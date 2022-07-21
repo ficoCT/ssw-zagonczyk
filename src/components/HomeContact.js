@@ -9,7 +9,7 @@ function HomeContact() {
         <section id="homeContact" className="contact">
             <ContactImage />
             <div className="contact__text">
-                Dopóki walczysz, jesteś zwycięzcą.
+                Skontaktuj się z Nami
             </div>
             <div className="contact__container">
                 <div className="contact__container__footer container">

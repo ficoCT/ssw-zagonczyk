@@ -6,15 +6,7 @@ function HomeStart() {
         <section id="homeStart" className="start">
             <HomeVideo />
             <div className="start__text">
-                <p>
-                    Stowarzyszenie
-                </p>
-                <p>
-                    Szkoleniowo-Edukacyjno-Wychowawcze
-                </p>
-                <p style={{ color: 'deepskyblue'}}>
-                    Zagończyk
-                </p>
+                    Dopóki walczysz, jesteś zwycięzcą.
             </div>
         </section>
     );

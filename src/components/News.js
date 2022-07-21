@@ -8,7 +8,7 @@ export class Books extends Component {
     }
 
     componentDidMount() {
-        axios.get('https://www.dm64707.domenomania.eu/awpssewz/news')
+        axios.get('/news')
             .then(res => this.setState({
                 books: res,
                 isLoaded: true
