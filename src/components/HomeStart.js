@@ -6,7 +6,8 @@ function HomeStart() {
         <section id="homeStart" className="start">
             <HomeVideo />
             <div className="start__text">
-                    Dopóki walczysz, jesteś zwycięzcą.
+                „Jedynie czyn ma znaczenie. Najlepsze chęci pozostają bez skutku, o ile nie
+                pociągają za sobą następstw praktycznych” J. Piłsudski
             </div>
         </section>
     );

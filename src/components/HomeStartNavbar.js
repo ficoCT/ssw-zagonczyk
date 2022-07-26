@@ -59,7 +59,7 @@ function HomeStartNavbar() {
                                 Stowarzyszenie Szkoleniowo-Edukacyjno-Wychowawcze
                             </p>
                             <p>
-                                Zagończyk
+                                ZAGOŃCZYK
                             </p>
                         </div>
                         </div>

@@ -1,4 +1,4 @@
-import Image from "../assets/NewsImage.jpg";
+import Image from "../assets/NewsImage1.jpg";
 
 function NewsImage() {
   return (
