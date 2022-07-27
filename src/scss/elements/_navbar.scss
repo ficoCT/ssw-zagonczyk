@@ -17,7 +17,10 @@
 
     &__right {
       width: 95%;
+      display: flex;
       margin-left: 2rem;
+      flex-direction: column;
+      justify-content: center;
 
       &__links {
         display: flex;
@@ -42,6 +45,7 @@
         p {
           display: inline-block;
           word-spacing: 1rem;
+          margin-bottom: 0.25rem;
         }
 
         :first-child {

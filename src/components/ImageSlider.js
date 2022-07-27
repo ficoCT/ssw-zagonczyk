@@ -1,11 +1,27 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 
 const ImageSlider = ({
                          images = [],
+                         autoPlay = true,
+                         autoPlayTime = 3000,
                          ...props
                      }) => {
 
-    const [currentSlide, setCurrentSlide] = useState(2);
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    function nextSlide(slideIndex = currentSlide + 1) {
+        const newSlideIndex = slideIndex >= images.length ? 0 : slideIndex;
+
+        setCurrentSlide(newSlideIndex);
+    }
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            nextSlide();
+        }, autoPlayTime);
+
+        return () => clearTimeout(timer);
+    }, [currentSlide]);
 
     return (
         <div style={{
