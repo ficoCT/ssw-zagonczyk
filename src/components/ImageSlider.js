@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 
 const ImageSlider = ({
                          images = [],
+                         text = [],
                          autoPlay = true,
                          autoPlayTime = 3000,
                          ...props
@@ -27,7 +28,10 @@ const ImageSlider = ({
         <div style={{
             height: '100vh',
             width: '100%',
-            overflow: 'visible'
+            display: 'flex',
+            justifyContent: 'center',
+            alignContent: 'end',
+            alignItems: 'end'
         }}>
             {images.map((imageUrl, index) => (
                 <img
@@ -39,10 +43,18 @@ const ImageSlider = ({
                     position: 'absolute',
                     zIndex: '-1',
                     objectFit: 'cover',
-                    right: index === currentSlide ? `0%` : `${index * 100}%`,
+                    right: index === currentSlide ? `0%` : `${index * 100}%`
                 }}
                 />
             ))}
+            <div style={{
+                background: 'black',
+                width: '100%'
+            }}>
+                <p>
+                    {text[currentSlide]}
+                </p>
+            </div>
         </div>
     );
 };

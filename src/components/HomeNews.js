@@ -13,6 +13,7 @@ function HomeNews() {
             {/*<NewsImage />*/}
             <ImageSlider
                 images={[image1, image2, image3]}
+                text={["image1", "image2", "image3"]}
             />
             {/*<div className="news__text">*/}
             {/*    W dniach 14-19.06.2022 roku Stowarzyszenie Szkoleniowo-Edukacyjno-Wychowawcze*/}
