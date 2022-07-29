@@ -48,10 +48,15 @@ const ImageSlider = ({
                 />
             ))}
             <div style={{
-                background: 'black',
-                width: '100%'
+                backgroundColor: 'rgba(0,0,0,.4)',
+                width: '100%',
+                padding: '0.5rem 0',
+                textAlign: 'center',
+                fontSize: '1.5rem',
             }}>
-                <p>
+                <p style={{
+
+                }}>
                     {text[currentSlide]}
                 </p>
             </div>

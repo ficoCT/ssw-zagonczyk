@@ -8,10 +8,13 @@ function HomeContact() {
     return (
         <section id="homeContact" className="contact">
             <ContactImage />
-            <div className="contact__text">
-                Skontaktuj się z Nami
-            </div>
+            {/*<div className="contact__text">*/}
+            {/*    Skontaktuj się z Nami*/}
+            {/*</div>*/}
             <div className="contact__container">
+                <div className="contact__container__text">
+                    Skontaktuj się z Nami
+                </div>
                 <div className="contact__container__footer container">
                     <div className="contact__container__footer__single ">
                         <FontAwesomeIcon
@@ -19,7 +22,7 @@ function HomeContact() {
                             className="contact__container__footer__single__icons"
                         />
                         <p>26-500 Szydłowiec</p>
-                        <p>ul. Kamienna</p>
+                        <p>ul. Kamienna 16</p>
                     </div>
                     <div className="contact__container__footer__single">
                         <FontAwesomeIcon
