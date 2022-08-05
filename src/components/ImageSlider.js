@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import Indicator from "./Indicator";
 
 const ImageSlider = ({
                          images = [],
@@ -29,7 +30,8 @@ const ImageSlider = ({
             height: '100vh',
             width: '100%',
             display: 'flex',
-            justifyContent: 'center',
+            flexDirection: 'column',
+            justifyContent: 'end',
             alignContent: 'end',
             alignItems: 'end'
         }}>
@@ -47,19 +49,24 @@ const ImageSlider = ({
                 }}
                 />
             ))}
-            <div style={{
-                backgroundColor: 'rgba(0,0,0,.4)',
-                width: '100%',
-                padding: '0.5rem 0',
-                textAlign: 'center',
-                fontSize: '1.5rem',
-            }}>
-                <p style={{
-
+                <Indicator
+                    currentSlide={currentSlide}
+                    amountSlides={images.length}
+                    nextSlide={nextSlide}
+                />
+                <div style={{
+                    backgroundColor: 'rgba(0,0,0,.4)',
+                    width: '100%',
+                    padding: '0.5rem 0',
+                    textAlign: 'center',
+                    fontSize: '1.5rem',
                 }}>
-                    {text[currentSlide]}
-                </p>
-            </div>
+                    <p style={{
+
+                    }}>
+                        {text[currentSlide]}
+                    </p>
+                </div>
         </div>
     );
 };
