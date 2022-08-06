@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Indicator from "./Indicator";
+import SeeMore from "./SeeMore";
 
 const ImageSlider = ({
                          images = [],
@@ -65,6 +66,7 @@ const ImageSlider = ({
 
                     }}>
                         {text[currentSlide]}
+                        <SeeMore />
                     </p>
                 </div>
         </div>

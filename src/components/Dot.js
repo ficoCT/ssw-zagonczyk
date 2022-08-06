@@ -1,16 +1,23 @@
-function Dot() {
+function Dot({onClick, isActive}) {
+
+    function clickDot() {
+
+        if (typeof onClick !== 'function') return;
+        onClick();
+    }
 
     return (
-        <div style={{
-            width: '12px',
-            height: '12px',
-            borderRadius: '6px',
+        <div
+            onClick={clickDot}
+            style={{
+            width: '1.25rem',
+            height: '1.25rem',
+            borderRadius: '2.5rem',
             backgroundColor: 'white',
-            opacity: `${(props) => (props.isActive ? 1 : 0.5)}`,
-            margin: '5px',
-            transition: '750ms all ease-in-out'
+            opacity: `${isActive ? 1 : 0.5}`,
+            margin: '10px',
+            transition: '750ms all ease-in-out',
         }}>
-         XXX
         </div>
     );
 }
