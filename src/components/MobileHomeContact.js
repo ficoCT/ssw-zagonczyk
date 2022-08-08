@@ -8,11 +8,11 @@ function MobileHomeContact() {
     return (
         <section id="mobileHomeContact" className="mobile__contact">
             <ContactImage />
-            <div className="mobile__contact__text">
-                <p>Skontaktuj się</p>
-                <p>z Nami</p>
-            </div>
             <div className="mobile__contact__container">
+                <div className="mobile__contact__container__text">
+                    <p>Skontaktuj się</p>
+                    <p>z Nami</p>
+                </div>
                 <div className="mobile__contact__container__footer">
                     <div className="mobile__contact__container__footer__single ">
                         <FontAwesomeIcon

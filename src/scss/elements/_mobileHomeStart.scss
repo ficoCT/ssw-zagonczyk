@@ -1,6 +1,18 @@
 .mobile__start {
   height: 100vh;
   color: white;
+  display: flex;
+
+  &__text {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    justify-content: end;
+    margin-bottom: 1rem;
+  }
 
   .container__video video {
     width: 100%;

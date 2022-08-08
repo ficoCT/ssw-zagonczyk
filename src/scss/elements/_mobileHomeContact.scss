@@ -3,22 +3,22 @@
   display: flex;
   flex-direction: column;
   color: white;
-  justify-content: space-between;
-
-  &__text {
-    margin: auto;
-    font-size: 2.25rem;
-    p {
-      margin-bottom: 1rem;
-    }
-  }
+  justify-content: end;
 
   &__container {
     background-color: black;
+    text-align: center;
+
+    &__text {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      p {
+        margin-bottom: 1rem;
+      }
+    }
 
     &__footer {
       padding-top: 1rem;
-      text-align: center;
 
       &__single {
         margin-bottom: 1rem;
