@@ -66,7 +66,7 @@ const ImageSlider = ({
 
                     }}>
                         {text[currentSlide]}
-                        <SeeMore />
+                        {/*<SeeMore />*/}
                     </p>
                 </div>
         </div>
