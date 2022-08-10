@@ -37,11 +37,13 @@ function MobileHomeContact() {
                         <p>ssew.zagonczyk@gmail.com</p>
                     </div>
                     <div className="mobile__contact__container__footer__single">
-                        <FontAwesomeIcon
-                            className="mobile__contact__container__footer__single__icons"
-                            icon={faFacebookF}
-                        />
-                        <p>Jesteśmy również na Facebooku.</p>
+                        <a href="https://www.facebook.com/profile.php?id=100079740142149">
+                            <FontAwesomeIcon
+                                className="mobile__contact__container__footer__single__icons"
+                                icon={faFacebookF}
+                            />
+                            <p>Jesteśmy również na Facebooku.</p>
+                        </a>
                     </div>
                 </div>
             </div>

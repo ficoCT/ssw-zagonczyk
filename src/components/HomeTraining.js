@@ -1,4 +1,3 @@
-import TrainingImage from "./TrainingImage";
 import ImageSlider from "./ImageSlider";
 import image1 from "../assets/TrainingImage1.jpg";
 import image2 from "../assets/TrainingImage2.jpg";
@@ -10,7 +9,6 @@ function HomeTraining() {
 
     return (
         <section id="homeTraining" className="training">
-            <TrainingImage />
             <ImageSlider
                 images={[image1, image2, image3, image4, image5]}
                 text={[

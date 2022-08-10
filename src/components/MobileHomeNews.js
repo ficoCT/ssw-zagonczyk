@@ -1,15 +1,20 @@
-import NewsImage from "./NewsImage";
+import image1 from "../assets/NewsImage1.jpg";
+import image2 from "../assets/NewsImage2.jpg";
+import image3 from "../assets/NewsImage3.jpg";
+import ImageSlider from "./ImageSlider";
 
 function MobileHomeNews() {
 
     return (
         <section id="mobileHomeNews" className="mobile__news">
-            <NewsImage />
-            <div className="mobile__news__text">
-                W dniach 14-19.06.2022 roku Stowarzyszenie Szkoleniowo-Edukacyjno-Wychowawcze
-                Zagończyk na terenie miasta Szydłowiec oraz sołectwa Barak realizowało zadanie
-                publiczne współfinansowane przez MON pt. „Żelazne Mundury 2022”.
-            </div>
+            <ImageSlider
+                images={[image1, image2, image3]}
+                text={[
+                    "Żelazne Mundury 2022 - szkolenie survivalowe oraz szkolenie strzelecko-taktyczne.",
+                    "Żelazne Mundury 2022 - szkolenie survivalowe oraz szkolenie strzelecko-taktyczne.",
+                    "Żelazne Mundury 2022 - szkolenie survivalowe oraz szkolenie strzelecko-taktyczne."
+                ]}
+            />
         </section>
     );
 }

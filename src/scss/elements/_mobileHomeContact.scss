@@ -23,6 +23,12 @@
       &__single {
         margin-bottom: 1rem;
 
+        a {
+          text-decoration: none;
+          cursor: pointer;
+          color: white;
+        }
+
         &__icons {
           margin-bottom: 0.5rem;
           color: deepskyblue;
